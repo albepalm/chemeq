@@ -15,7 +15,7 @@ In the `./input` folder can be found two examples of input file. Input files are
 ```
 [m/t] [p_min] [p_max] [p_step] [t_min] [t_max] [t_step] [output_name] [# Nitrogen-only equations] [type of reactions] [# Oxygen-only equations] [type of reactions] [# Nitrogen monoxide-only equations] [type of reactions] [# Argon-only equations] [type of reactions] [ionization] [Nitrogen ratio] [Oxygen ratio] [Argon ratio]
 ```
-- m/t: m (matrix format, temperature-pressure map), t (pressure is fixed);
+- `m/t`: `m` (matrix format, temperature-pressure map), `t` (pressure is fixed);
 - pressure varies in log10 scale, temperature in linear scale;
 - ```output_name``` less than 256 chars;
 - type of reactions (for Nitrogen and Oxygen): 0-bit X2, 1-bit X, 2-bit X+, 3-bit X2+;
@@ -34,7 +34,10 @@ In the `./output` file are stored the results as tab-separeated values:
 This file contains the settings of the Newton-Raphson method:
 - maximum iterations;
 - relative tolerance;
-- cli output (0 less verbose, 1, 2 extremely verbose)/
+- cli output (0 less verbose, 1, 2 extremely verbose).
+
+## Some post-processed results
+
 
 ## References
 
