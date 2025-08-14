@@ -12,7 +12,7 @@ void CHEMEQ_SPLASH()
 	fflush(stdout);
 	printf("-=-=-=- CHEMICAL  EQUILIBRIUM -=-=-=-\n");
 	fflush(stdout);
-	printf("= for homogeneous gasseous mixtures =\n");
+	printf("= for homogeneous  gaseous mixtures =\n");
 	fflush(stdout);
 	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 	fflush(stdout);
