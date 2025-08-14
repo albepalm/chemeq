@@ -1,13 +1,17 @@
 # Chemical Equilibrium Calculator for homogeneous gasseous mixtures 
+
 This simple tool evaluates the equilibrium chemical composition of different terrestrial air models (N2, O2, NOx, Ar, and related dissociated and ionized species) at different mixture pressures and temperatures. It solves a system of nonlinear equations, taking into account the variation of the thermodynamic properties of gases as a function of temperature [[1]](#1) [[2]](#2).
 The code was written for part of my master's thesis work [[3]](#3).
 
 ## Installation
-Clone the repo: ´´´git clone https://github.com/albepalm/chemeq.git´´´
-Run the make utility inside the folder: ´´´make´´´
+
+Clone the repo: ´git clone https://github.com/albepalm/chemeq.git´
+Run the make utility inside the folder: ´make´
 
 ## Input file
-In the ´´´./input´´´ folder can be found two examples of input file. Input files are structured as follows:
+
+In the ´./input´ folder can be found two examples of input file. Input files are structured as follows:
+
 ´´´
 [m/t] [p_min] [p_max] [p_step] [t_min] [t_max] [t_step] [output_name] [# Nitrogen-only equations] [type of reactions] [# Oxygen-only equations] [type of reactions] [# Nitrogen monoxide-only equations] [type of reactions] [# Argon-only equations] [type of reactions] [ionization] [Nitrogen ratio] [Oxygen ratio] [Argon ratio]
 ´´´
@@ -21,5 +25,7 @@ In the ´´´./input´´´ folder can be found two examples of input file. Input
 ## References
 
 <a id="1">[1]</a> John D. Anderson. Hypersonic and High-Temperature Gas Dynamics, Third Edition. American Institute of Aeronautics and Astronautics, Inc., Jan. 2019. doi: 10.2514/4.105142.
+
 <a id="2">[2]</a> Bonnie J. McBride, M.J. Zehe, and S. Gordon. NASA Glenn coefficients for calculating thermodynamic properties of individual species NASA. tech. rep. TP-2002,2002.
+
 <a id="3">[3]</a> Palmieri, Alberto. Parametrized numerical analysis of hypersonic flow field. Diss. Politecnico di Torino, 2023.
