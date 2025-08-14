@@ -30,7 +30,7 @@ In the `./output` file are stored the results as tab-separeated values:
 - the pressure is in the second (only if `m` option is specified;
 - the others contain the molar fractions (or partial pressures, `pp` string is appended at the end of the file name).
 
-## `chemeq.config`
+## chemeq.config
 This file contains the settings of the Newton-Raphson method:
 - maximum iterations;
 - relative tolerance;
@@ -38,6 +38,13 @@ This file contains the settings of the Newton-Raphson method:
 
 ## Some post-processed results
 
+![Nitrogen model at 1 bar](/examples/n2.png)
+
+![Oxygen model at 1 bar](/examples/o2.png)
+
+![11 species model at 1 bar](/examples/11s.png)
+
+![Plasma temperature/pressure map](/examples/plasma13s.png)
 
 ## References
 
