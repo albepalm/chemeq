@@ -1,0 +1,52 @@
+#ifndef CHEMEQ_EQUATIONS_H
+#define CHEMEQ_EQUATIONS_H
+double FP(double *x, double *par);
+double FNEUTR(double *x, double *par);
+double FN2O(double *x, double *par);
+double JRN1(double *x, double *par);
+double JRN2(double *x, double *par);
+double JRO1(double *x, double *par);
+double JRO2(double *x, double *par);
+double JRNO(double *x, double *par);
+double FN2Ar(double *x, double *par);
+double JRAr(double *x, double *par);
+double FDN(double *x, double *par);
+double JDNp(double *x, double *par);
+double JDNr(double *x, double *par);
+double FIN2(double *x, double *par);
+double JIp(double *x, double *par);
+double JIN2e(double *x, double *par);
+double JIN2r(double *x, double *par);
+double FIN1_1(double *x, double *par);
+double JIN1_1e(double *x, double *par);
+double JIN1_1r(double *x, double *par);
+double FIN1_2(double *x, double *par);
+double JIN1_2e(double *x, double *par);
+double JIN1_2r(double *x, double *par);
+double FDO(double *x, double *par);
+double JDOp(double *x, double *par);
+double JDOr(double *x, double *par);
+double FIO2(double *x, double *par);
+double JIO2e(double *x, double *par);
+double JIO2r(double *x, double *par);
+double FIO1_1(double *x, double *par);
+double JIO1_1e(double *x, double *par);
+double JIO1_1r(double *x, double *par);
+double FIO1_2(double *x, double *par);
+double JIO1_2e(double *x, double *par);
+double JIO1_2r(double *x, double *par);
+double FNO(double *x, double *par);
+double JNO_N2(double *x, double *par);
+double JNO_O2(double *x, double *par);
+double JNO_2NO(double *x, double *par);
+double FINO(double *x, double *par);
+double JINOr(double *x, double *par);
+double JINOe(double *x, double *par);
+double FIAr(double *x, double *par);
+double JIArr(double *x, double *par);
+double JIAre(double *x, double *par);
+double J0(double *x, double *par);
+double Jp1(double *x, double *par);
+double Jm1(double *x, double *par);
+
+#endif	// CHEMEQ_EQUATIONS_H
